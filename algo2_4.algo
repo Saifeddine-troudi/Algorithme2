@@ -1,0 +1,18 @@
+ Algorithme "Algo2solution4"
+ var
+  tab1 , tab2 : HASH_TABLE<integer,integer>
+  i , j , sum : integer ; 
+  begin
+    sum :=0; 
+     for i from 0 to tab1.lenght-1 step 1 do
+      if (tab1.lookup(tab1[i]=true)) then
+       sum :=sum+tab[i];
+      end if ;
+    end for ;
+     for j from 0 to tab2.lenght-1 step 1 do 
+      if (tab2.lookup(tab2[j]=true)) then
+      sum :=sum+tab2[j];
+      end if ;
+    end for ;
+    write("Common elements are " , sum)         
+ end  

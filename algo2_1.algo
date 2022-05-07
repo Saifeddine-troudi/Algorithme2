@@ -1,0 +1,22 @@
+ Alogrithme "Alogo2solution1"
+ var
+ tab1 , tab2: array_of_integer[];
+ i , j , sum :integer ; 
+ begin
+          sum :=0;
+       for i from 0 to tab1.lenght-1 step 1 do
+        for j from 0 to tab2.lenght-1 step 1 do
+         if (tab1[i]<>tab2[j]) then
+            sum:=sum+tab1[i];
+         end if ;   
+        end for;
+       end for;
+       for j from 0 to tab2.lenght-1 step 1 do
+        for i from 0 to tab1.lenght-1 step 1 do
+         if (tab1[j]<>tab2[i]) then
+            sum:=sum+tab1[j];
+         end if ;   
+        end for;
+       end for;
+       write("Sum of overlapping elements",sum);
+ end 

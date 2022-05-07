@@ -1,0 +1,19 @@
+ Algorithme "Algo2solution3"
+ var 
+ tab1 , tab2  : HASH_TABLE<integer,integer> ;
+ i , sum : integer; 
+ begin
+     sum := 0;
+     for i from 0 to tab1.lenght-1 step 1 do 
+         if ( tab1.lookup(tab1[i]=false)) then
+          sum:=sum+tab1[i];
+          end if ;
+          end for ;
+     for j from 0 ti tab2.lenght-1 step 1 do 
+         if ( tab2.lookup(tab2[j]=false)) then
+          sum:=sum+tab2[j];
+          end if ;
+     end for ;               
+    write("Sum of overlapping elements",sum);
+
+ end 
